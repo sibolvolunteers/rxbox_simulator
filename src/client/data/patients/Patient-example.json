@@ -1,0 +1,33 @@
+{
+  "resourceType": "Patient",
+  "id": "12345",
+  "identifier": [
+    {
+      "value": "12345",
+      "system": "sibol.rxbox.telehealth.ph"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "text": "Juan Dela Cruz"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(03) 5555 6473",
+      "use": "mobile",
+      "rank": 1
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1974-12-25",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999"
+    }
+  ]
+}
