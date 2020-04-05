@@ -28,12 +28,14 @@ This tool's purpose is to:
     To run the dummy coordinator:
     ```
     $ cd rxbox_simulator/src/dummy_coordinator
+    $ npm install
     $ npm start
     ```
 1. Open a separate terminal
 1. Run RxBox Telemetry Testing Tool or dummy RxBox
     ```
     $ cd rxbox_simulator/src/client
+    $ npm install
     $ npm start
     ```
 
