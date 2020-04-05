@@ -1,4 +1,4 @@
-# RxBox Telemetry Unit Testing Tool
+# RxBox Telemetry Testing Tool
 
 ## Overview
 
@@ -31,7 +31,7 @@ This tool's purpose is to:
     $ npm start
     ```
 1. Open a separate terminal
-1. Run RxBox Telemetry Unit Testing Tool or dummy RxBox
+1. Run RxBox Telemetry Testing Tool or dummy RxBox
     ```
     $ cd rxbox_simulator/src/client
     $ npm start
