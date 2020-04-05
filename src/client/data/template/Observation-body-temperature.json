@@ -1,0 +1,31 @@
+{
+  "resourceType": "Observation",
+  "id": "body-temperature",
+  "identifier": [
+    {
+      "value": "8310-5",
+      "system": "loinc.org"
+    }
+  ],
+  "status": "",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8310-5",
+        "display": "Body temperature"
+      }
+    ],
+    "text": "Body temperature"
+  },
+  "subject": {
+    "reference": ""
+  },
+  "effectiveDateTime": "",
+  "valueQuantity": {
+    "value": 0,
+    "unit": "C",
+    "system": "http://unitsofmeasure.org",
+    "code": "Cel"
+  }
+}

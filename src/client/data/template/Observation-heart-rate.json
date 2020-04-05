@@ -1,0 +1,31 @@
+{
+  "resourceType": "Observation",
+  "id": "heart-rate",
+  "identifier": [
+    {
+      "value": "8867-4",
+      "system": "loinc.org"
+    }
+  ],
+  "status": "",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8867-4",
+        "display": "Heart rate"
+      }
+    ],
+    "text": "Heart rate"
+  },
+  "subject": {
+    "reference": ""
+  },
+  "effectiveDateTime": "",
+  "valueQuantity": {
+    "value": 0,
+    "unit": "beats/minute",
+    "system": "http://unitsofmeasure.org",
+    "code": "/min"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType": "Observation",
+  "id": "SPO2",
+  "identifier": [
+    {
+      "value": "59407-7",
+      "system": "loinc.org"
+    }
+  ],
+  "status": "",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "59407-7",
+        "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+      }
+    ],
+    "text": "Oxygen saturation"
+  },
+  "subject": {
+    "reference": ""
+  },
+  "effectiveDateTime": "",
+  "valueQuantity": {
+    "value": 0,
+    "unit": "%",
+    "system": "http://unitsofmeasure.org",
+    "code": "%"
+  }
+}
