@@ -13,8 +13,8 @@ const config = JSON.parse(fs.readFileSync("config.json"));
 
 let obxRequest = {
     // Change this to IP addr if you want to execute over the network
-    hostname: 'localhost',
-    port: 3000,
+    hostname: config.server.ipAddress,
+    port: config.server.port,
     path: '/Observation',
     method: 'POST',
     headers: {}
@@ -30,10 +30,10 @@ vitalSign.prototype.generateDummyValue = function (min, max, significantDigits) 
 };
 
 vitalSign.prototype.sendFHIRrequestLoop = function () {
-    console.log(`Sending simulated ${this.vitalSignType} for Patient ${this.patientID} every ${config[this.vitalSignType].fixedInterval} ms ...`);
+    console.log(`Sending simulated ${this.vitalSignType} for Patient ${this.patientID} every ${config.vitalSigns[this.vitalSignType].fixedInterval} ms ...`);
     let self = this;
     setInterval(self.sendFHIRrequest.bind(self),
-        config[this.vitalSignType].fixedInterval);
+        config.vitalSigns[this.vitalSignType].fixedInterval);
 };
 
 vitalSign.prototype.sendFHIRrequest = function () {
@@ -47,9 +47,9 @@ vitalSign.prototype.sendFHIRrequest = function () {
     resource.subject.reference = "Patient/" + this.patientID;
     resource.effectiveDateTime = new Date();
     resource.valueQuantity.value = this.generateDummyValue(
-        config[this.vitalSignType].min,
-        config[this.vitalSignType].max,
-        config[this.vitalSignType].significantDigits);
+        config.vitalSigns[this.vitalSignType].min,
+        config.vitalSigns[this.vitalSignType].max,
+        config.vitalSigns[this.vitalSignType].significantDigits);
 
     // Check for FHIR Request Body validity
     let results = fhir.validate(resource, {});
@@ -77,7 +77,7 @@ vitalSign.prototype.sendFHIRrequest = function () {
 
     }
     else {
-        console.log("Invalid FHIR Request");
+        console.err("Invalid FHIR Request");
         console.log(results);
     }
 

@@ -1,26 +1,32 @@
 {
-    "body-temperature":{
-        "min": 30.0,
-        "max": 45.0,
-        "significantDigits": 1,
-        "fixedInterval": 1000
+    "server": {
+        "ipAddress": "localhost",
+        "port": 3000
     },
-    "respiratory-rate":{
-        "min": 50,
-        "max": 100,
-        "significantDigits": 0,
-        "fixedInterval": 1000
-    },
-    "heart-rate":{
-        "min": 50,
-        "max": 100,
-        "significantDigits": 0,
-        "fixedInterval": 1000
-    },
-    "SPO2":{
-        "min": 90,
-        "max": 99,
-        "significantDigits": 0,
-        "fixedInterval": 1000
+    "vitalSigns": {
+        "body-temperature": {
+            "min": 30.0,
+            "max": 45.0,
+            "significantDigits": 1,
+            "fixedInterval": 1000
+        },
+        "respiratory-rate": {
+            "min": 50,
+            "max": 100,
+            "significantDigits": 0,
+            "fixedInterval": 1000
+        },
+        "heart-rate": {
+            "min": 50,
+            "max": 100,
+            "significantDigits": 0,
+            "fixedInterval": 1000
+        },
+        "SPO2": {
+            "min": 90,
+            "max": 99,
+            "significantDigits": 0,
+            "fixedInterval": 1000
+        }
     }
 }
