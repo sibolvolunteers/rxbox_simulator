@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00039",
+  "identifier": [
+    {
+      "value": "00039",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Corazon C. Aquino"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1963-01-25",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Paniqui, Tarlac"
+    } 
+  ]
+}

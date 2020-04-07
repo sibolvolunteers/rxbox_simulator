@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00061",
+  "identifier": [
+    {
+      "value": "00061",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Lela Camat"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1946-02-08",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Kalibo, Aklan"
+    } 
+  ]
+}

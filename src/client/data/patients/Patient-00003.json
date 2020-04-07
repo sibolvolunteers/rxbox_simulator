@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00003",
+  "identifier": [
+    {
+      "value": "00003",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "José Rizal"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1961-06-19",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Calamba, Laguna"
+    } 
+  ]
+}

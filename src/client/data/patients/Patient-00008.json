@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00008",
+  "identifier": [
+    {
+      "value": "00008",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Amie Estes"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1985-01-01",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Puerto Princesa City, Palawan"
+    } 
+  ]
+}

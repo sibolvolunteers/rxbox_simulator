@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00057",
+  "identifier": [
+    {
+      "value": "00057",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Heriberto Hamada"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1999-07-20",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "San Juan, Metro Manila"
+    } 
+  ]
+}

@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00046",
+  "identifier": [
+    {
+      "value": "00046",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Leonor Goquingco"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1976-07-24",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Jolo, Sulu"
+    } 
+  ]
+}

@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00062",
+  "identifier": [
+    {
+      "value": "00062",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Trevor Hizon"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1950-05-24",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "San Miguel, Bulacan"
+    } 
+  ]
+}

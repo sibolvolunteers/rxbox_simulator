@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00047",
+  "identifier": [
+    {
+      "value": "00047",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Lucrecia Urtula"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1989-06-29",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Iloilo City, Iloilo"
+    } 
+  ]
+}

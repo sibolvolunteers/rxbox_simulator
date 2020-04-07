@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00024",
+  "identifier": [
+    {
+      "value": "00024",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Tauro Tala"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1956-06-05",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "BGC, Metro Manila"
+    } 
+  ]
+}

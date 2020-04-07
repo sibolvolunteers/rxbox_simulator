@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00060",
+  "identifier": [
+    {
+      "value": "00060",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Joselito Galleros"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1956-02-04",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Paoay, Ilocos Norte"
+    } 
+  ]
+}

@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00015",
+  "identifier": [
+    {
+      "value": "00015",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Tylor Vizcaya"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1977-02-27",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Malate, Manila"
+    } 
+  ]
+}

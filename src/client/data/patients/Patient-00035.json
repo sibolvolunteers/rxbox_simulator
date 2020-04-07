@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00035",
+  "identifier": [
+    {
+      "value": "00035",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Ramon del Fierro Magsaysay"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1957-08-31",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Iba, Zambales"
+    } 
+  ]
+}

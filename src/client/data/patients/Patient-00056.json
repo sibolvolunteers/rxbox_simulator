@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00056",
+  "identifier": [
+    {
+      "value": "00056",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Amelia Quezada"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1965-05-05",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Alabel, Sarangani"
+    } 
+  ]
+}

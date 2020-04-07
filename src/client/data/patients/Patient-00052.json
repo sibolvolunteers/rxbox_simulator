@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00052",
+  "identifier": [
+    {
+      "value": "00052",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Ramon Obusan"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1938-06-16",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Laegazpi City, Albay"
+    } 
+  ]
+}

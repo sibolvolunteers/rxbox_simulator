@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00016",
+  "identifier": [
+    {
+      "value": "00016",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Tamia Hinojosa"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1992-05-06",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Quezon City, Metro Manila"
+    } 
+  ]
+}

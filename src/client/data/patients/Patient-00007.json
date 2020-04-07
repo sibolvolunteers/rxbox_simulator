@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00007",
+  "identifier": [
+    {
+      "value": "00007",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Aaron Samuels"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1991-06-25",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Quezon City, Metro Manila"
+    } 
+  ]
+}

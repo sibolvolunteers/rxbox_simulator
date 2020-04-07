@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00051",
+  "identifier": [
+    {
+      "value": "00051",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Ernani Cuenco"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1988-05-10",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Malolos, Bulacan"
+    } 
+  ]
+}

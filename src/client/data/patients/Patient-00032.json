@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00032",
+  "identifier": [
+    {
+      "value": "00032",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Sergio Osmena"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1978-09-09",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Cebu City, Cebu"
+    } 
+  ]
+}

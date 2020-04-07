@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00045",
+  "identifier": [
+    {
+      "value": "00045",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Wilfrido Maria Guerrero"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1995-01-22",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Ermita, Manila City"
+    } 
+  ]
+}

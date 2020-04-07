@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00027",
+  "identifier": [
+    {
+      "value": "00027",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Modesta Formalouza"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "2001-02-02",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Alabang, Metro Manila"
+    } 
+  ]
+}

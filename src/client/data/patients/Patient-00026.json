@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00026",
+  "identifier": [
+    {
+      "value": "00026",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Trevora Hizon"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1997-09-08",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Antipolo, Rizal"
+    } 
+  ]
+}

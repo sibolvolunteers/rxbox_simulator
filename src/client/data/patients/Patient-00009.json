@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00009",
+  "identifier": [
+    {
+      "value": "00009",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Cara Orr"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1975-03-05",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Jaro, Iloilo City"
+    } 
+  ]
+}

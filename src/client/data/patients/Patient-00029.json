@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00029",
+  "identifier": [
+    {
+      "value": "00029",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Sarah Santiago"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1946-07-14",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Quezon, Palawan"
+    } 
+  ]
+}

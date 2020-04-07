@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00059",
+  "identifier": [
+    {
+      "value": "00059",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Elina Cadiz"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "2010-03-04",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Dapitan, Zamboanga del Norte"
+    } 
+  ]
+}

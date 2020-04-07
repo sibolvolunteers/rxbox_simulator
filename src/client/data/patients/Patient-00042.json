@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00042",
+  "identifier": [
+    {
+      "value": "00042",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Danilo Zialcita"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1969-11-24",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Manila City, Metro Manila"
+    } 
+  ]
+}

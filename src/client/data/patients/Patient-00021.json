@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00021",
+  "identifier": [
+    {
+      "value": "00021",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Savannah Felongco"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1966-05-09",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Navotas, Metro Manila"
+    } 
+  ]
+}

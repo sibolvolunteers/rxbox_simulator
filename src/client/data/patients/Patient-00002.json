@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00002",
+  "identifier": [
+    {
+      "value": "00002",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Juan Dela Cruz"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1974-12-25",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Pasig City, Metro Manila"
+    } 
+  ]
+}

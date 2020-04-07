@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00006",
+  "identifier": [
+    {
+      "value": "00006",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Regina George"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1990-03-16",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Quezon City, Metro Manila"
+    } 
+  ]
+}

@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00034",
+  "identifier": [
+    {
+      "value": "00034",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Elpidio R. Quirino"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1990-11-16",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Vigan, Ilocos Sur"
+    } 
+  ]
+}

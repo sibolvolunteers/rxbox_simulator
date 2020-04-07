@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00010",
+  "identifier": [
+    {
+      "value": "00010",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Troy Randolph"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1986-09-06",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Paranaque, Metro Manila"
+    } 
+  ]
+}

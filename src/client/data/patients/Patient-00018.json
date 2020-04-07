@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00018",
+  "identifier": [
+    {
+      "value": "00018",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Adrian  Miranda"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1995-02-07",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Makati, Metro Manila"
+    } 
+  ]
+}

@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00019",
+  "identifier": [
+    {
+      "value": "00019",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Xander Magpantay"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "2000-04-12",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Pasay, Metro Manila"
+    } 
+  ]
+}

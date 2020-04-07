@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00001",
+  "identifier": [
+    {
+      "value": "00001",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Andres Bonifacio"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1963-11-30",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Tondo, Manila"
+    } 
+  ]
+}

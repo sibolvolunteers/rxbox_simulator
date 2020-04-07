@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00031",
+  "identifier": [
+    {
+      "value": "00031",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Jose P. Laurel"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1991-03-09",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Tanauan City, Batangas"
+    } 
+  ]
+}

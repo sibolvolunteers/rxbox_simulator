@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00036",
+  "identifier": [
+    {
+      "value": "00036",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Carlos P. Garcia"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1966-11-04",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Talibon, Bohol"
+    } 
+  ]
+}

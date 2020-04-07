@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00020",
+  "identifier": [
+    {
+      "value": "00020",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Havana Oohnana"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1986-03-07",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Marikina, Metro Manila"
+    } 
+  ]
+}

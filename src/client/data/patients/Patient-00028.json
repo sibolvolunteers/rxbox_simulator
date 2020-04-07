@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00028",
+  "identifier": [
+    {
+      "value": "00028",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Selina Yoshizaki"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1991-05-08",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Taytay, Rizal"
+    } 
+  ]
+}

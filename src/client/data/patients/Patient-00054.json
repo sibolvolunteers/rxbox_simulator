@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00054",
+  "identifier": [
+    {
+      "value": "00054",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Harmony Locsin"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1975-03-03",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Tanay, Rizal"
+    } 
+  ]
+}

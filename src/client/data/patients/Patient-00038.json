@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00038",
+  "identifier": [
+    {
+      "value": "00038",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Ferdinand Marcos"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1977-09-11",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Sarrat, Ilocos Norte"
+    } 
+  ]
+}

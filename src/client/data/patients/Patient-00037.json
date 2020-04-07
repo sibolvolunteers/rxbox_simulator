@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00037",
+  "identifier": [
+    {
+      "value": "00037",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Diosdado P. Macapagal"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1950-09-28",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Lubao, Pampanga"
+    } 
+  ]
+}

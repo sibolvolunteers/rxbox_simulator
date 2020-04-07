@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00012",
+  "identifier": [
+    {
+      "value": "00012",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Cesario Tangco"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1972-04-03",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Novaliches, Quezon City"
+    } 
+  ]
+}

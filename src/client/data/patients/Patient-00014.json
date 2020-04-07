@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00014",
+  "identifier": [
+    {
+      "value": "00014",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Alden Sandoval"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1986-11-26",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Paranaque, Metro Manila"
+    } 
+  ]
+}

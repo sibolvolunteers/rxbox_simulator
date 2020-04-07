@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00004",
+  "identifier": [
+    {
+      "value": "00004",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Gabriela Silang"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1931-03-19",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Santa, Ilocos Sur"
+    } 
+  ]
+}

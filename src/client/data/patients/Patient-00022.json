@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00022",
+  "identifier": [
+    {
+      "value": "00022",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Dominica Kimpo"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1943-06-08",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Laoag, Ilocos Norte"
+    } 
+  ]
+}

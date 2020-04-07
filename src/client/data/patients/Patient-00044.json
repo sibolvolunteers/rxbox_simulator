@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00044",
+  "identifier": [
+    {
+      "value": "00044",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Severino Montano"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1980-01-03",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Laoag, Ilocos Norte"
+    } 
+  ]
+}

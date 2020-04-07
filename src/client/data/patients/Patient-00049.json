@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00049",
+  "identifier": [
+    {
+      "value": "00049",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Andrea Veneracion"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1928-07-11",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Manila City, Metro Manila"
+    } 
+  ]
+}

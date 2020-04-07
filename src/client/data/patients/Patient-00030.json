@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00030",
+  "identifier": [
+    {
+      "value": "00030",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Manuel L. Quezon"
+    } 
+  ],
+  "gender": "Male",
+  "birthDate": "1988-08-19",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Baler, Aurora"
+    } 
+  ]
+}

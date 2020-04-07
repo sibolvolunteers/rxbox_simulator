@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00048",
+  "identifier": [
+    {
+      "value": "00048",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Lucrecia Kasilag"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1988-08-31",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Paco, Manila City"
+    } 
+  ]
+}

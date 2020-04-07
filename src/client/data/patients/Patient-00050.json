@@ -1,0 +1,25 @@
+{ 
+  "resourceType": "Patient", 
+  "id": "00050",
+  "identifier": [
+    {
+      "value": "00050",
+      "system": "sibol.rxbox.telehealth.ph" 
+    } 
+  ],
+  "active": true,
+  "name": [ 
+    {
+      "text": "Jovita Fuentes"
+    } 
+  ],
+  "gender": "Female",
+  "birthDate": "1978-02-15",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "Roxas City, Capiz"
+    } 
+  ]
+}
